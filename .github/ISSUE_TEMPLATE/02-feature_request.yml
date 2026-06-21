@@ -1,0 +1,72 @@
+name: Feature request
+description: Suggest a new feature or improvement for an OpenNG library
+title: "[Feature]: "
+labels:
+  - enhancement
+type: Feature
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched the existing issues and have not found a duplicate
+          required: true
+        - label: I have read the README and documentation
+          required: true
+        - label: I agree to follow the [OpenNG Foundation Code of Conduct](https://github.com/openng-foundation/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this feature solve? What is your use case?
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: api-sketch
+    attributes:
+      label: Proposed API or usage
+      description: If applicable, provide a TypeScript API sketch or usage example.
+      render: typescript
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions or workarounds you have considered.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How important is this feature to you?
+      options:
+        - "Nice to have"
+        - Important
+        - Critical
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: willing-to-pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to open a pull request for this feature
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Screenshots, mockups, links, or other supporting information.

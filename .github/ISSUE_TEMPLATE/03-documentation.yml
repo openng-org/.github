@@ -1,0 +1,64 @@
+name: Documentation
+description: Report missing, outdated, or confusing documentation
+title: "[Docs]: "
+labels:
+  - documentation
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve our documentation. If you intend to submit a fix, mention it below — pull requests are welcome.
+
+  - type: checkboxes
+    id: docs-type
+    attributes:
+      label: Documentation is
+      options:
+        - label: Missing
+        - label: Outdated
+        - label: Confusing
+        - label: Typo or formatting error
+        - label: Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: docs-location
+    attributes:
+      label: Documentation location
+      description: URL or file path to the page or section.
+      placeholder: https://www.openng.org/docs/... or docs/getting-started.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong or missing?
+      description: Describe the issue and what you expected to find.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Proposed fix or new content. If you plan to open a PR, describe the change here.
+    validations:
+      required: true
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, upload screenshots showing incorrect or confusing documentation.
+    validations:
+      accept: .png,.jpg,.jpeg,.gif,.webp
+
+  - type: checkboxes
+    id: will-submit-pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I plan to submit a pull request for this documentation fix

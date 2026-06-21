@@ -1,0 +1,173 @@
+name: Bug report
+description: Report a bug or unexpected behavior in an OpenNG library
+title: "[Bug]: "
+labels:
+  - bug
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+        **Please do not report security vulnerabilities here.** Use the appropriate private disclosure channel for your project.
+
+        Issues without a minimal reproduction are difficult to triage and may be closed. Provide a StackBlitz or GitHub repo that demonstrates the problem.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched the existing issues and have not found a duplicate
+          required: true
+        - label: I have read the README and documentation and have not found a solution
+          required: true
+        - label: I agree to follow the [OpenNG Foundation Code of Conduct](https://github.com/openng-foundation/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Detailed steps to reproduce the behavior.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened.
+    validations:
+      required: true
+
+  - type: input
+    id: repro-url
+    attributes:
+      label: Minimal reproduction
+      description: Link to a StackBlitz, GitHub repo, or other minimal repro.
+      placeholder: https://stackblitz.com/... or https://github.com/...
+    validations:
+      required: true
+
+  - type: input
+    id: library-version
+    attributes:
+      label: Library version
+      placeholder: e.g. 1.2.3
+    validations:
+      required: true
+
+  - type: input
+    id: angular-version
+    attributes:
+      label: Angular version
+      placeholder: e.g. 19.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node version
+      placeholder: e.g. 22.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: Package manager
+      options:
+        - npm
+        - pnpm
+        - yarn
+        - bun
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browser(s)
+      multiple: true
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Opera
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment details
+      description: OS and other relevant environment information.
+      value: |
+        - OS:
+        - Node:
+        - Package manager:
+      render: markdown
+
+  - type: dropdown
+    id: angular-setup
+    attributes:
+      label: Angular application setup
+      options:
+        - Standalone components
+        - NgModule-based
+        - Both / mixed
+        - Not sure
+
+  - type: checkboxes
+    id: angular-context
+    attributes:
+      label: Angular context
+      options:
+        - label: SSR (Server-Side Rendering) is involved
+        - label: Zoneless change detection is enabled
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Console errors, stack traces, or terminal output.
+      render: shell
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+    validations:
+      accept: .png,.jpg,.jpeg,.gif,.webp
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any other information that might help us investigate.
