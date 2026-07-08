@@ -1,4 +1,4 @@
-# OpenNG Foundation
+# OpenNG
 
 **Keeping Angular open source sustainable.**
 
@@ -22,13 +22,13 @@ Beyond our own repositories, we promote quality open source, help libraries find
 
 ## Why this GitHub organization exists
 
-Each repository here is part of a deliberate effort to preserve software the community still needs. You will find maintained Angular libraries under OpenNG Foundation, contribution guides and issue templates, security policies for responsible disclosure, and a place to collaborate on fixes, releases, and long-term project health.
+Each repository here is part of a deliberate effort to preserve software the community still needs. You will find maintained Angular libraries under OpenNG initiative, contribution guides and issue templates, security policies for responsible disclosure, and a place to collaborate on fixes, releases, and long-term project health.
 
 ## Where we are today
 
 OpenNG is in an early stage and we are building in phases:
 
-1. **Foundation and first cohort** — launch [openng.org](https://www.openng.org/), set up community channels, and maintain the first cohort of six libraries.
+1. **Initiative and first cohort** — launch [openng.org](https://www.openng.org/), set up community channels, and maintain the first cohort of six libraries.
 2. **Beyond the first cohort** — evaluate other abandoned Angular libraries the community still relies on.
 3. **Ecosystem support** — identify practical ways to help the wider Angular open-source landscape (upcoming).
 4. **Sponsorship** — find sponsors to fund maintenance work and governance costs (upcoming).

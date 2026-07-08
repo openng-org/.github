@@ -1,6 +1,6 @@
 # Contributing to OpenNG libraries
 
-Thank you for your interest in contributing to [OpenNG Foundation](https://www.openng.org/) open-source Angular libraries. This guide describes how to report issues, propose changes, and submit pull requests. Individual repositories may add project-specific notes in their README — read those first when they exist.
+Thank you for your interest in contributing to [OpenNG](https://www.openng.org/) open-source Angular libraries. This guide describes how to report issues, propose changes, and submit pull requests. Individual repositories may add project-specific notes in their README — read those first when they exist.
 
 ## Code of Conduct
 
@@ -41,7 +41,7 @@ Check the target repository's README and `package.json` for exact versions. Typi
 ### Getting the code running
 
 ```bash
-git clone https://github.com/openng-foundation/<repo>.git
+git clone https://github.com/openng-org/<repo>.git
 cd <repo>
 npm install          # or pnpm install / yarn
 npm run build        # build the library(ies)
@@ -203,7 +203,7 @@ Issues without enough information to reproduce may be closed with a request for 
 
 ## Getting help
 
-- [OpenNG Foundation website](https://www.openng.org/)
+- [OpenNG website](https://www.openng.org/)
 - Repository README and documentation
 - GitHub Issues and Discussions (when enabled on the repo)
 
