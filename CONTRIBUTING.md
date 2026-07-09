@@ -6,6 +6,10 @@ Thank you for your interest in contributing to [OpenNG](https://www.openng.org/)
 
 This project follows the [Contributor Covenant Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you agree to uphold it. Unacceptable behavior can be reported to the project maintainers.
 
+## AI Policy
+
+We require all contributors to follow our [AI Policy](https://www.openng.org/contribute/ai-policy) when contributing to this repository. This policy is in place to ensure code quality, maintainer sanity, and a healthy community culture.
+
 ## Ways to contribute
 
 You do not need to write code to help:
