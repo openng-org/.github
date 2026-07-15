@@ -14,7 +14,7 @@ body:
           required: true
         - label: I have read the README and documentation
           required: true
-        - label: I agree to follow the [OpenNG Foundation Code of Conduct](https://github.com/openng-foundation/.github/blob/main/CODE_OF_CONDUCT.md)
+        - label: I agree to follow the [OpenNG Code of Conduct](https://github.com/openng-org/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
 
   - type: textarea

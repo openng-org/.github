@@ -1,6 +1,6 @@
 # Security Policy
 
-The [OpenNG Foundation](https://www.openng.org/) takes security seriously. If you believe you have found a vulnerability in an OpenNG Foundation open-source project, please report it responsibly so we can investigate and address it.
+[OpenNG](https://www.openng.org/) takes security seriously. If you believe you have found a vulnerability in an OpenNG  open-source project, please report it responsibly so we can investigate and address it.
 
 ## Supported versions
 
@@ -22,7 +22,7 @@ This is the fastest way for maintainers to triage, coordinate a fix, and credit 
 
 ### Alternative: Email
 
-If private reporting is not available on a repository, or you are unsure which repository is affected, email **openng.foundation@gmail.com** with:
+If private reporting is not available on a repository, or you are unsure which repository is affected, email **contact@openng.org** with:
 
 - A clear description of the vulnerability and its potential impact
 - Steps to reproduce, including versions (library, Angular, Node, browser if relevant)
@@ -41,7 +41,7 @@ Encrypt sensitive details if you can; we will work with you on a secure channel 
 
 ## Scope
 
-This policy applies to OpenNG Foundation repositories under the [openng-foundation](https://github.com/openng-foundation) organization. Individual repositories may publish additional security notes in their README; follow those when they exist.
+This policy applies to OpenNG repositories under the [openng-org](https://github.com/openng-org) organization. Individual repositories may publish additional security notes in their README; follow those when they exist.
 
 Out of scope for this channel:
 

@@ -39,7 +39,7 @@ None
 - [ ] Public API changes documented; breaking changes called out
 - [ ] CHANGELOG updated (if the repository maintains one and the change is user-facing)
 - [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/)
-- [ ] I agree to follow the [OpenNG Foundation Code of Conduct](https://github.com/openng-foundation/.github/blob/main/CODE_OF_CONDUCT.md)
+- [ ] I agree to follow the [OpenNG Code of Conduct](https://github.com/openng-org/.github/blob/main/CODE_OF_CONDUCT.md)
 
 ## Additional context
 
